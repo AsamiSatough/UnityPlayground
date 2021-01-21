@@ -1,0 +1,786 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 8190 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/LoveCraft/Documents/GitHub/UnityPlayground
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60757
+Successfully changed project path to: C:/Users/LoveCraft/Documents/GitHub/UnityPlayground
+C:/Users/LoveCraft/Documents/GitHub/UnityPlayground
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 55.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/LoveCraft/Documents/GitHub/UnityPlayground/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 430 (ID=0xde1)
+    Vendor:   
+    VRAM:     979 MB
+    Driver:   23.21.13.8813
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002867 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.541 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001456 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.784 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.7 MB.
+System memory in use after: 56.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1535.
+Total: 3.685700 ms (FindLiveObjects: 0.381400 ms CreateObjectMapping: 0.137900 ms MarkObjects: 3.003300 ms  DeleteObjects: 0.159700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/grass.prefab
+  artifactKey: Guid(ebace2f9eb645564999812cb8d02c009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/grass.prefab using Guid(ebace2f9eb645564999812cb8d02c009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9850cd3a9a589b9654cae17e3415d772') in 0.052266 seconds
+  Import took 0.056169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.858441 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_climb1.png
+  artifactKey: Guid(561601884d686fe47905452b85794369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_climb1.png using Guid(561601884d686fe47905452b85794369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6273faba5ce0eac47a5881bce04935e6') in 0.235697 seconds
+  Import took 0.243687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_swim1.png
+  artifactKey: Guid(fad23a149a31889488a7b2c1e2240a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_swim1.png using Guid(fad23a149a31889488a7b2c1e2240a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356bfa891468c2bd2946ef656f0a227c') in 0.030194 seconds
+  Import took 0.033905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_climb1.png
+  artifactKey: Guid(561601884d686fe47905452b85794369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_climb1.png using Guid(561601884d686fe47905452b85794369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6273faba5ce0eac47a5881bce04935e6') in 0.010804 seconds
+  Import took 0.014660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_walk1.png
+  artifactKey: Guid(614c64182a100b540832bc21d5489128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_walk1.png using Guid(614c64182a100b540832bc21d5489128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c6b21010f2e341558f3a75af20b8ba') in 0.031244 seconds
+  Import took 0.042529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_hit.png
+  artifactKey: Guid(508bbab3b4e100d41b978aaef3a80f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_hit.png using Guid(508bbab3b4e100d41b978aaef3a80f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f559bfa72f5ecab5b6fb256faf83f1f') in 0.024533 seconds
+  Import took 0.030560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_front.png
+  artifactKey: Guid(ff63b1a72db7c9c49a0eeb989104131c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_front.png using Guid(ff63b1a72db7c9c49a0eeb989104131c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd45677e64a6ac87f25ce48f88bd228d') in 0.030931 seconds
+  Import took 0.035205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_hit.png
+  artifactKey: Guid(12206548c3ff299448628586d35376a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_hit.png using Guid(12206548c3ff299448628586d35376a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7230c6d933b73f2e2148d32366f692a2') in 0.029943 seconds
+  Import took 0.034473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_duck.png
+  artifactKey: Guid(9f593583a4ccdd24b9cc3321a91d499d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_duck.png using Guid(9f593583a4ccdd24b9cc3321a91d499d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75759c7c3c53eb122f7c37d19851554a') in 0.026920 seconds
+  Import took 0.031504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_walk1.png
+  artifactKey: Guid(65b9f75ac48df2d4fad08b7ceb5a6c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_walk1.png using Guid(65b9f75ac48df2d4fad08b7ceb5a6c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8372abf661a0cc47c100cf8f6142c9b') in 0.027238 seconds
+  Import took 0.032124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_jump.png
+  artifactKey: Guid(5e72fb9d110b3f749816d1d115aab494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_jump.png using Guid(5e72fb9d110b3f749816d1d115aab494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1888c90b8ea87e0e56bad0502c4a76') in 0.016413 seconds
+  Import took 0.022776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_front.png
+  artifactKey: Guid(6ba05d17afe01ad4881c07d40e2fa4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_front.png using Guid(6ba05d17afe01ad4881c07d40e2fa4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e4dc400f250892dc222e9cb43e0541') in 0.012313 seconds
+  Import took 0.017224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_climb1.png
+  artifactKey: Guid(32d913a53406ad1419c6f1f8400fd756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Blue/alienBlue_climb1.png using Guid(32d913a53406ad1419c6f1f8400fd756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a5280afd5d7a5172cfb6a51b496506') in 0.014469 seconds
+  Import took 0.020522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_walk2.png
+  artifactKey: Guid(bb4e0ec2699b64a49bcf73297c454ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_walk2.png using Guid(bb4e0ec2699b64a49bcf73297c454ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbc83a577b931631b2901a4b8d6dca4') in 0.021838 seconds
+  Import took 0.026767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_swim2.png
+  artifactKey: Guid(171043f6936221a438188834c9a8a624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_swim2.png using Guid(171043f6936221a438188834c9a8a624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a508b46d4be0e0ba57e2f714586a861') in 0.024085 seconds
+  Import took 0.027990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_duck.png
+  artifactKey: Guid(92349246051a48b4bad0e1b85644a69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_duck.png using Guid(92349246051a48b4bad0e1b85644a69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49177cfd874db8750224476615dca7b4') in 0.010968 seconds
+  Import took 0.014795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000733 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_climb2.png
+  artifactKey: Guid(61d703b3f631c4845a0aec1553f4f72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_climb2.png using Guid(61d703b3f631c4845a0aec1553f4f72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc6bec403635ffd9d7a3ca8e2fe92bc') in 0.025898 seconds
+  Import took 0.030068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_jump.png
+  artifactKey: Guid(376b62e883bdbb5408fd565e419f7eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_jump.png using Guid(376b62e883bdbb5408fd565e419f7eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a1ed629771b3973d4eac9404c6a8a3') in 0.024203 seconds
+  Import took 0.027982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000618 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_swim1.png
+  artifactKey: Guid(b05bd4cc92fd5274997f58cd317205a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_swim1.png using Guid(b05bd4cc92fd5274997f58cd317205a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34166b9f8a2496a7c876086c2ad32ba') in 0.009780 seconds
+  Import took 0.014045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000633 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_walk2.png
+  artifactKey: Guid(d02858aafbc60f2479239b3afd101e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_walk2.png using Guid(d02858aafbc60f2479239b3afd101e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca958928589d4982f20f9616f20be910') in 0.021640 seconds
+  Import took 0.027518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_stand.png
+  artifactKey: Guid(2f27c3ff559f1a84081990b212e7b7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_stand.png using Guid(2f27c3ff559f1a84081990b212e7b7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a256d3a97b8ad3f2131f496a20490178') in 0.022831 seconds
+  Import took 0.027063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_swim2.png
+  artifactKey: Guid(b136441dfd1d32142a5b62e4d7194969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_swim2.png using Guid(b136441dfd1d32142a5b62e4d7194969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2ce7cdb493025832b31d02f90e75e8') in 0.020917 seconds
+  Import took 0.025816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_climb1.png
+  artifactKey: Guid(6f120ec8a7d70df4bb9e0340138700ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Beige/alienBiege_climb1.png using Guid(6f120ec8a7d70df4bb9e0340138700ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7813df8f8068842afe9193704323623') in 0.025735 seconds
+  Import took 0.029390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_climb2.png
+  artifactKey: Guid(7e5c0fe65bd46774d893c5b1769f5722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_climb2.png using Guid(7e5c0fe65bd46774d893c5b1769f5722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8ebc03bce9dfc1ff31b4acf5faab14') in 0.022996 seconds
+  Import took 0.026758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_stand.png
+  artifactKey: Guid(5a212cd51b365374bb87da0ed23884f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Beige/alienBeige_stand.png using Guid(5a212cd51b365374bb87da0ed23884f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5590b09a08e9a45d0242a61d40eeee6') in 0.018458 seconds
+  Import took 0.023079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.502304 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_climb1.png
+  artifactKey: Guid(bac43093c937a1f4ebe331064d9b2d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_climb1.png using Guid(bac43093c937a1f4ebe331064d9b2d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b068a5e9e3cfe351db2d7fd9f94631f6') in 0.052403 seconds
+  Import took 0.065136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001134 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_climb2.png
+  artifactKey: Guid(1db11a9312c578e40b127735556bcfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_climb2.png using Guid(1db11a9312c578e40b127735556bcfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af50275b5fac16a4c09399243afafcc') in 0.053318 seconds
+  Import took 0.066344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000913 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_climb1.png
+  artifactKey: Guid(bac43093c937a1f4ebe331064d9b2d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_climb1.png using Guid(bac43093c937a1f4ebe331064d9b2d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b068a5e9e3cfe351db2d7fd9f94631f6') in 0.016306 seconds
+  Import took 0.025564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000924 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_climb1.png
+  artifactKey: Guid(0c46f6112d18a6c4e974038298f6b56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_climb1.png using Guid(0c46f6112d18a6c4e974038298f6b56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44d3b3f84ed5ccb0836b78dc2260407') in 0.016303 seconds
+  Import took 0.024943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.489727 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_climb2.png
+  artifactKey: Guid(fb888e6bd8161574cbc660fb06410048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_climb2.png using Guid(fb888e6bd8161574cbc660fb06410048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8ce9fa4f19b2a752349c6f50413c63') in 0.023596 seconds
+  Import took 0.033307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000972 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_duck.png
+  artifactKey: Guid(fac81a469ed64e94395d3b465f0b6135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_duck.png using Guid(fac81a469ed64e94395d3b465f0b6135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedca3b49f3875291800aaa33f88d766') in 0.040067 seconds
+  Import took 0.050251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000912 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_stand.png
+  artifactKey: Guid(0a2b79b3062846d4fa43ecb2787d59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_stand.png using Guid(0a2b79b3062846d4fa43ecb2787d59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d64f1cb6e112a625bbc8d427e78ef84') in 0.179676 seconds
+  Import took 0.189545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000985 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_walk1.png
+  artifactKey: Guid(f2e2dd455e5318645b8d560c5a4eb76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_walk1.png using Guid(f2e2dd455e5318645b8d560c5a4eb76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d69cdbfdc0dcbda0059b93877bf891') in 0.041692 seconds
+  Import took 0.050822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001015 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_hit.png
+  artifactKey: Guid(023dcb64693ea614e8c47dab368fa043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_hit.png using Guid(023dcb64693ea614e8c47dab368fa043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e718bfac9f928e0ef665f5706a5be3') in 0.029754 seconds
+  Import took 0.037006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000616 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_stand.png
+  artifactKey: Guid(cb5b61f9dd7a1c4498e4b790958b2b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_stand.png using Guid(cb5b61f9dd7a1c4498e4b790958b2b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d05095a17e1da1b6c0fb8d8c905e25b') in 0.011218 seconds
+  Import took 0.015233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000684 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_walk1.png
+  artifactKey: Guid(47ff201e065f0674fb36760cd6b6bb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_walk1.png using Guid(47ff201e065f0674fb36760cd6b6bb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ef495c20ea4226e68094ba0c2b58b8') in 0.010940 seconds
+  Import took 0.014713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_front.png
+  artifactKey: Guid(427231aaac8cd1a4a9a653b6624d01eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_front.png using Guid(427231aaac8cd1a4a9a653b6624d01eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd068bfee4e9a542032a2eed560ebd3bb') in 0.022849 seconds
+  Import took 0.028393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_walk2.png
+  artifactKey: Guid(8fee98537233d494986db3d97568d156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_walk2.png using Guid(8fee98537233d494986db3d97568d156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fc74ef6c28c0514aa4d56a0a6499b9') in 0.067386 seconds
+  Import took 0.075850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_jump.png
+  artifactKey: Guid(682a89406143f2045ac75ec28946a971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_jump.png using Guid(682a89406143f2045ac75ec28946a971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6e627f75e1cebc96545d3d9bc691c9') in 0.083432 seconds
+  Import took 0.092193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_hit.png
+  artifactKey: Guid(db753d0a22832284887ec09cc9ca7515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_hit.png using Guid(db753d0a22832284887ec09cc9ca7515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ddfe9b2c1bce3c290926030a86fae5') in 0.011643 seconds
+  Import took 0.016160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000743 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_swim1.png
+  artifactKey: Guid(7b2a61f05aa72794690f7adae6c70318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_swim1.png using Guid(7b2a61f05aa72794690f7adae6c70318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef087a5ce81d29ee2e03ca0356ed561') in 0.026046 seconds
+  Import took 0.030007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Backgrounds/blue_grass.png
+  artifactKey: Guid(e14cfb516e0e5594baf14fe2d037557e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Backgrounds/blue_grass.png using Guid(e14cfb516e0e5594baf14fe2d037557e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfcd75cf510bc4b790afcebbe454765') in 0.022045 seconds
+  Import took 0.028460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_swim2.png
+  artifactKey: Guid(9a8beff026dd6ce45aed972a494b21fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_swim2.png using Guid(9a8beff026dd6ce45aed972a494b21fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f555077355d64776566cc4d9df051c8f') in 0.069251 seconds
+  Import took 0.094879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_walk2.png
+  artifactKey: Guid(4b9ff43bf3ca5214ab6d315e2364a01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_walk2.png using Guid(4b9ff43bf3ca5214ab6d315e2364a01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fa95fd4a189b183d510acc3a6865cc') in 0.064529 seconds
+  Import took 0.076014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_jump.png
+  artifactKey: Guid(1facfa13bc72b3d4ba4c685efc371f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_jump.png using Guid(1facfa13bc72b3d4ba4c685efc371f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0b3606883228eb765531de4e0382ec') in 0.009251 seconds
+  Import took 0.014026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Tiles/brickGrey.png
+  artifactKey: Guid(d2887d3e64f5b8445af77500e15b7325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Tiles/brickGrey.png using Guid(d2887d3e64f5b8445af77500e15b7325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636f1c85e42a13ee5ba9ba97dd141e60') in 0.019936 seconds
+  Import took 0.024048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_swim2.png
+  artifactKey: Guid(93ae7ba70776411449c0113d70a8cc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/Variable sizes/Green/alienGreen_swim2.png using Guid(93ae7ba70776411449c0113d70a8cc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf3fda83a1d6105547e756bdf3bd54a') in 0.011548 seconds
+  Import took 0.017421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_swim1.png
+  artifactKey: Guid(a770502cdf4bc3a408fc37ddd61f1d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_swim1.png using Guid(a770502cdf4bc3a408fc37ddd61f1d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c3d7d78c23b05d6369b98e5db9ecca') in 0.008818 seconds
+  Import took 0.013975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_duck.png
+  artifactKey: Guid(a20b2394e728c0c4a87d035c01875918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_duck.png using Guid(a20b2394e728c0c4a87d035c01875918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3f267be26d3709db3ab4f424357425') in 0.047405 seconds
+  Import took 0.061431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_front.png
+  artifactKey: Guid(2f321c612fa8629429018d53b4085b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Green/alienGreen_front.png using Guid(2f321c612fa8629429018d53b4085b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32de1865313a60044946035c595223f3') in 0.062022 seconds
+  Import took 0.110865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Particles/brickGrey.png
+  artifactKey: Guid(ef8a5de52ba77ad4cb70151c9fe75d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Particles/brickGrey.png using Guid(ef8a5de52ba77ad4cb70151c9fe75d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8c8b6049caeac369ec6c72063819ba') in 0.048215 seconds
+  Import took 0.053480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.750739 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Backgrounds/colored_grass.png
+  artifactKey: Guid(020c5640360dc1741a1676d2bc572e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Backgrounds/colored_grass.png using Guid(020c5640360dc1741a1676d2bc572e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356b6fe88b48afd26f03c9d310766c2b') in 0.052838 seconds
+  Import took 0.064317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001131 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassCenter.png
+  artifactKey: Guid(ae45f8a67cbda6446b52be63868859c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassCenter.png using Guid(ae45f8a67cbda6446b52be63868859c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e93bec7cc2f7fc778c2de65cd3160c') in 0.055020 seconds
+  Import took 0.066683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassCorner_left.png
+  artifactKey: Guid(eff8eed6fdd9c0e4392fb963bf822ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassCorner_left.png using Guid(eff8eed6fdd9c0e4392fb963bf822ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41f0a75c6fb3fa0585b06e64fc7bb25') in 0.045398 seconds
+  Import took 0.055139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001116 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassCorner_right.png
+  artifactKey: Guid(6e0103b3055e5504aa806adfbef3e4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassCorner_right.png using Guid(6e0103b3055e5504aa806adfbef3e4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a402002dd0e7c3b25040b1d92f28fe9d') in 0.050328 seconds
+  Import took 0.060077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassHalf_mid.png
+  artifactKey: Guid(e7cc56025d2db4343bff4ca25303d08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassHalf_mid.png using Guid(e7cc56025d2db4343bff4ca25303d08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b541c215e3243c351460e565dff9b3') in 0.018160 seconds
+  Import took 0.023616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassCliffAlt_right.png
+  artifactKey: Guid(f2de0a1a955bac74e90700f6df617556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassCliffAlt_right.png using Guid(f2de0a1a955bac74e90700f6df617556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc61b2006f47ebafd14ccb368024240') in 0.021474 seconds
+  Import took 0.026171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassCliffAlt_left.png
+  artifactKey: Guid(dd5bf38152bcb6349a4b43ab1f709534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassCliffAlt_left.png using Guid(dd5bf38152bcb6349a4b43ab1f709534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba69a179a5e294a63e55647eebb67cfd') in 0.024074 seconds
+  Import took 0.029090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Backgrounds/colored_grass.png
+  artifactKey: Guid(020c5640360dc1741a1676d2bc572e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Backgrounds/colored_grass.png using Guid(020c5640360dc1741a1676d2bc572e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356b6fe88b48afd26f03c9d310766c2b') in 0.030589 seconds
+  Import took 0.037129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassCliff_right.png
+  artifactKey: Guid(18177ed4932c12e43a56fa7ca19bc396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassCliff_right.png using Guid(18177ed4932c12e43a56fa7ca19bc396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aee0d54c3a25489bd0e0193a33e8f5a') in 0.024982 seconds
+  Import took 0.029142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassHalf_left.png
+  artifactKey: Guid(c701d416488789345901ef71a78b8baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassHalf_left.png using Guid(c701d416488789345901ef71a78b8baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d5ad7d217e2c38545a1431a062d975') in 0.021959 seconds
+  Import took 0.027033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassCliff_left.png
+  artifactKey: Guid(42ac8e2b5fa3390469d32aa71266042d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassCliff_left.png using Guid(42ac8e2b5fa3390469d32aa71266042d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a9f7c5ef4061d653fdea7f1494071f') in 0.020715 seconds
+  Import took 0.025041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassHalf.png
+  artifactKey: Guid(25497d6eca69d8743a68b35ffaf37ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassHalf.png using Guid(25497d6eca69d8743a68b35ffaf37ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d985a0871b499457de420a89ec2c5e') in 0.024150 seconds
+  Import took 0.028077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassCenter_round.png
+  artifactKey: Guid(86acc7cd3dffb6b4bbb5f5b47ff5c369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassCenter_round.png using Guid(86acc7cd3dffb6b4bbb5f5b47ff5c369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d1a3217753eec837edf9b3cccd7a9a') in 0.025872 seconds
+  Import took 0.031554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grass.png
+  artifactKey: Guid(6056e2519a5b01844bf481233292cbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grass.png using Guid(6056e2519a5b01844bf481233292cbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a8f42657687bfa61dfdbd0a20384bd') in 0.009103 seconds
+  Import took 0.013144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000763 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Tiles/grass.png
+  artifactKey: Guid(4b9d67d3135d61b42a0c9d6aa7cd7a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Tiles/grass.png using Guid(4b9d67d3135d61b42a0c9d6aa7cd7a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d42a2bdeb63e0ad6d4879c44dcc7853') in 0.013161 seconds
+  Import took 0.016893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassHalf_right.png
+  artifactKey: Guid(7219c01bbec75d8489f861216ce7f8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassHalf_right.png using Guid(7219c01bbec75d8489f861216ce7f8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f05fe2194a90195ffb41315fe95b45f') in 0.022598 seconds
+  Import took 0.026542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.091496 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassHill_left.png
+  artifactKey: Guid(a416fb2a040bb8241877676ee5d3fdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassHill_left.png using Guid(a416fb2a040bb8241877676ee5d3fdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42e55da3b901f80540164d4f6166048') in 0.043758 seconds
+  Import took 0.056101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001014 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassHill_right.png
+  artifactKey: Guid(c4c9f47a22aa765468325d3947f6dd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassHill_right.png using Guid(c4c9f47a22aa765468325d3947f6dd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58011148ec90ccb11bb5df9845fac5d1') in 0.048011 seconds
+  Import took 0.059099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassLeft.png
+  artifactKey: Guid(85aecd56b4d26a0429c4d8b5097d17c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassLeft.png using Guid(85aecd56b4d26a0429c4d8b5097d17c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7af585113c95ccdb465ecb2653405a') in 0.057403 seconds
+  Import took 0.072157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000942 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassRight.png
+  artifactKey: Guid(efb085bef89f64c4ab021fe221e9611c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassRight.png using Guid(efb085bef89f64c4ab021fe221e9611c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b4e79550a80b0fe4b7dd8856a990e4') in 0.063886 seconds
+  Import took 0.072570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000930 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassMid.png
+  artifactKey: Guid(e33d76fa9fb840a4896cbb073b54bbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Ground/Grass/grassMid.png using Guid(e33d76fa9fb840a4896cbb073b54bbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c85ed7809b8ee6a5330973a156a7cc1') in 0.054648 seconds
+  Import took 0.064969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.182847 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink
+  artifactKey: Guid(e4767124c0e9eab4e9f235d3c4894817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink using Guid(e4767124c0e9eab4e9f235d3c4894817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e830872d736bf6f153be690b1b1b8d') in 0.046330 seconds
+  Import took 0.056572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032257 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink
+  artifactKey: Guid(e4767124c0e9eab4e9f235d3c4894817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink using Guid(e4767124c0e9eab4e9f235d3c4894817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e830872d736bf6f153be690b1b1b8d') in 0.019798 seconds
+  Import took 0.029365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.411886 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_climb1.png
+  artifactKey: Guid(006c10a82b74ea041ad52e560a51140c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_climb1.png using Guid(006c10a82b74ea041ad52e560a51140c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b7d4fc7ee7f9351bff2c86ac5ba6ae') in 0.066968 seconds
+  Import took 0.077162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000929 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_climb2.png
+  artifactKey: Guid(f5e3ae68a29cdaf45bfd3d4ed5d6ee16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_climb2.png using Guid(f5e3ae68a29cdaf45bfd3d4ed5d6ee16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfedf903faa14373ffe7ccd7c0b3cbc9') in 0.061221 seconds
+  Import took 0.077396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_front.png
+  artifactKey: Guid(b60260e6dc1e8bd49b90e341a5afbc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_front.png using Guid(b60260e6dc1e8bd49b90e341a5afbc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d49ac6793c94c4f6ef0097af83a2e41') in 0.049028 seconds
+  Import took 0.060086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000987 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_climb2.png
+  artifactKey: Guid(f5e3ae68a29cdaf45bfd3d4ed5d6ee16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_climb2.png using Guid(f5e3ae68a29cdaf45bfd3d4ed5d6ee16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfedf903faa14373ffe7ccd7c0b3cbc9') in 0.108917 seconds
+  Import took 0.149185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_walk1.png
+  artifactKey: Guid(61e70cf64a256e447a190b8a11435609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_walk1.png using Guid(61e70cf64a256e447a190b8a11435609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef96542b2460af3c85a1df31aa0726be') in 0.023924 seconds
+  Import took 0.030349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_walk2.png
+  artifactKey: Guid(c041fc6d0d29ee94088e29472565f34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_walk2.png using Guid(c041fc6d0d29ee94088e29472565f34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efff0f4d84c4e073c5227b923fe9ebd2') in 0.025795 seconds
+  Import took 0.030603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_swim2.png
+  artifactKey: Guid(926e341f78af629408b17a27d76628dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_swim2.png using Guid(926e341f78af629408b17a27d76628dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933fc15fef0b89752f3dece4012792c4') in 0.025014 seconds
+  Import took 0.029209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001301 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_duck.png
+  artifactKey: Guid(c4896661006b4db46ac7cd0f98ae2770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_duck.png using Guid(c4896661006b4db46ac7cd0f98ae2770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2515542b3de61a675a3ec1fd5d3174e5') in 0.024511 seconds
+  Import took 0.029827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_hit.png
+  artifactKey: Guid(d0fe569c1264e894f86c4eb8e9fbb33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_hit.png using Guid(d0fe569c1264e894f86c4eb8e9fbb33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78892c4b840e21821018818ad37bba2') in 0.023527 seconds
+  Import took 0.027366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_jump.png
+  artifactKey: Guid(6d746b8e99d5e064bb4b91ba743c519c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_jump.png using Guid(6d746b8e99d5e064bb4b91ba743c519c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9701883a0d83e3b6f45330e181ffad60') in 0.024118 seconds
+  Import took 0.030682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_hit.png
+  artifactKey: Guid(d0fe569c1264e894f86c4eb8e9fbb33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_hit.png using Guid(d0fe569c1264e894f86c4eb8e9fbb33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78892c4b840e21821018818ad37bba2') in 0.010823 seconds
+  Import took 0.014878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_jump.png
+  artifactKey: Guid(6d746b8e99d5e064bb4b91ba743c519c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_jump.png using Guid(6d746b8e99d5e064bb4b91ba743c519c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9701883a0d83e3b6f45330e181ffad60') in 0.010580 seconds
+  Import took 0.015520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_climb1.png
+  artifactKey: Guid(006c10a82b74ea041ad52e560a51140c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_climb1.png using Guid(006c10a82b74ea041ad52e560a51140c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b7d4fc7ee7f9351bff2c86ac5ba6ae') in 0.008334 seconds
+  Import took 0.013213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_swim1.png
+  artifactKey: Guid(3afddad7a38ed8049b68fd36b668de59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_swim1.png using Guid(3afddad7a38ed8049b68fd36b668de59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bf812c6d2c121f0191e3f421563e79') in 0.027597 seconds
+  Import took 0.032943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001907 seconds.
+  path: Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_stand.png
+  artifactKey: Guid(eee9a1ec32e6b6141819fb5e02f5618b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer-pack-redux-360-assets/PNG/Players/128x256/Pink/alienPink_stand.png using Guid(eee9a1ec32e6b6141819fb5e02f5618b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539642df21a0e04d5fb07350b83d5d7f') in 0.022668 seconds
+  Import took 0.028216 seconds .
+
