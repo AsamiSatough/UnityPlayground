@@ -132,7 +132,11 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 56
+=======
+  controlID: 104
+>>>>>>> Stashed changes
 =======
   controlID: 104
 >>>>>>> Stashed changes
@@ -265,7 +269,11 @@ MonoBehaviour:
   vertical: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 61
+=======
+  controlID: 105
+>>>>>>> Stashed changes
 =======
   controlID: 105
 >>>>>>> Stashed changes
@@ -298,7 +306,11 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 62
+=======
+  controlID: 106
+>>>>>>> Stashed changes
 =======
   controlID: 106
 >>>>>>> Stashed changes
@@ -523,7 +535,11 @@ MonoBehaviour:
     m_Folders:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     - Assets/Scenes
+=======
+    - Assets/Scripts
+>>>>>>> Stashed changes
 =======
     - Assets/Scripts
 >>>>>>> Stashed changes
@@ -537,9 +553,15 @@ MonoBehaviour:
   m_LastFolders:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Marine\UnityPlayground
+=======
+  - Assets/Scripts
+  m_LastFoldersGridSize: 96
+  m_LastProjectPath: C:\Users\LoveCraft\Documents\GitHub\UnityPlayground
+>>>>>>> Stashed changes
 =======
   - Assets/Scripts
   m_LastFoldersGridSize: 96
@@ -556,9 +578,15 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_SelectedIDs: fe390000
     m_LastClickedID: 14846
     m_ExpandedIDs: 00000000fa39000000ca9a3b
+=======
+    m_SelectedIDs: c0450000
+    m_LastClickedID: 17856
+    m_ExpandedIDs: 00000000d0390000223a00002e3a00003a3a0000463a000000ca9a3b
+>>>>>>> Stashed changes
 =======
     m_SelectedIDs: c0450000
     m_LastClickedID: 17856
@@ -718,6 +746,9 @@ MonoBehaviour:
     y: 73
     width: 200
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -728,9 +759,15 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       m_SelectedIDs: 063a0000
       m_LastClickedID: 0
       m_ExpandedIDs: 52fbffff
+=======
+      m_SelectedIDs: 34f1ffff
+      m_LastClickedID: -3788
+      m_ExpandedIDs: aeb4ffff34f1ffff56fbffff
+>>>>>>> Stashed changes
 =======
       m_SelectedIDs: 34f1ffff
       m_LastClickedID: -3788
@@ -786,9 +823,15 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     x: 314
     y: 81
     width: 724
+=======
+    x: 201
+    y: 73
+    width: 829
+>>>>>>> Stashed changes
 =======
     x: 201
     y: 73
