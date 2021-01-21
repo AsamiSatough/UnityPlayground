@@ -1,23 +1,17 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'ru' Physical Memory: 16315 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
 D:\Marine\Unity\2020.2.1f1\Editor\Unity.exe
 =======
-=======
->>>>>>> Stashed changes
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 8190 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 -adb2
 -batchMode
@@ -25,7 +19,6 @@ C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 D:/Marine/UnityPlayground
 -logFile
@@ -59,8 +52,6 @@ Registered in 0.001299 seconds.
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 21.58 ms, found 0 plugins.
 =======
-=======
->>>>>>> Stashed changes
 C:/Users/LoveCraft/Documents/GitHub/UnityPlayground
 -logFile
 Logs/AssetImportWorker0.log
@@ -92,16 +83,12 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/E
 Registered in 0.015420 seconds.
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 211.39 ms, found 0 plugins.
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 - Completed reload, in  1.573 seconds
 Platform modules already initialized, skipping
@@ -111,8 +98,6 @@ Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 =======
-=======
->>>>>>> Stashed changes
 - Completed reload, in 10.557 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
@@ -120,16 +105,12 @@ Registered in 0.001746 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 - Completed reload, in  0.731 seconds
 Platform modules already initialized, skipping
@@ -145,8 +126,6 @@ System memory in use after: 56.4 MB.
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1535.
 Total: 2.368900 ms (FindLiveObjects: 0.185800 ms CreateObjectMapping: 0.048100 ms MarkObjects: 2.046100 ms  DeleteObjects: 0.087200 ms)
 =======
-=======
->>>>>>> Stashed changes
 - Completed reload, in  5.370 seconds
 Platform modules already initialized, skipping
 ========================================================================
@@ -1551,9 +1530,6 @@ System memory in use after: 61.1 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1666.
 Total: 5.866300 ms (FindLiveObjects: 0.465200 ms CreateObjectMapping: 0.097400 ms MarkObjects: 5.188800 ms  DeleteObjects: 0.110800 ms)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
