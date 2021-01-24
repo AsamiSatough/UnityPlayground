@@ -10,9 +10,13 @@ public class Player : MonoBehaviour
     public Transform groundCheck;
     bool isGrounded;
     Animator anim;
+    public int curHp;
+    public int maxHp = 3;
+    bool isHit = false;
 
     public void Start()
     {
+        curHp = maxHp;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
@@ -64,5 +68,40 @@ public class Player : MonoBehaviour
 
         if (!isGrounded)
             anim.SetInteger("State", 3);
+    }
+
+    public void RecountHp(int deltaHp)
+    {
+        curHp += deltaHp;
+        if (deltaHp < 0)
+        {
+            StopCoroutine(OnHit());
+            isHit = true;
+            StartCoroutine(OnHit());
+        }
+
+        if (curHp <= 0) 
+        {
+            this.GetComponent<CapsuleCollider2D>().enabled = false;
+        }
+    }
+
+    IEnumerator OnHit()
+    {
+        //color changed to red
+        if(isHit)
+            GetComponent<SpriteRenderer>().color = new Color(1f, GetComponent<SpriteRenderer>().color.g - 0.25f, GetComponent<SpriteRenderer>().color.b - 0.25f);
+        else
+            GetComponent<SpriteRenderer>().color = new Color(1f, GetComponent<SpriteRenderer>().color.g + 0.25f, GetComponent<SpriteRenderer>().color.b + 0.25f);
+
+        if (GetComponent<SpriteRenderer>().color.g == 1f)
+            StopCoroutine(OnHit());
+
+        if (GetComponent<SpriteRenderer>().color.g <= 0)
+            isHit = false;
+        
+        yield return new WaitForSeconds(0.04f);
+        StartCoroutine(OnHit());
+       
     }
 }
