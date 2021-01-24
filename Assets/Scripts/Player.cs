@@ -21,11 +21,12 @@ public class Player : MonoBehaviour
     {
         CheckGround();
 
+        //State 1 - idle
+        //State 2 - walking
+        //State 3 - jump
+
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
-        {
             rb.AddForce(transform.up * jumpHeight, ForceMode2D.Impulse);
-            anim.SetInteger("State", 3);
-        }
 
         //("Horizontal") == 0 means that we don't move at all
         if (isGrounded)
@@ -42,7 +43,7 @@ public class Player : MonoBehaviour
 
     public void FixedUpdate()
     {
-        rb.velocity = new Vector2(Input.GetAxis("Horizontal")*speed, rb.velocity.y);
+        rb.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
     }
 
     void Flip()
@@ -60,5 +61,8 @@ public class Player : MonoBehaviour
         Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheck.position, 0.2f);
 
         isGrounded = colliders.Length > 1;
+
+        if (!isGrounded)
+            anim.SetInteger("State", 3);
     }
 }
