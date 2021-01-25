@@ -87,21 +87,18 @@ public class Player : MonoBehaviour
     }
 
     IEnumerator OnHit()
-    {
-        //color changed to red
-        if(isHit)
+    {        
+        while (GetComponent<SpriteRenderer>().color.g != 0)
+        {
             GetComponent<SpriteRenderer>().color = new Color(1f, GetComponent<SpriteRenderer>().color.g - 0.25f, GetComponent<SpriteRenderer>().color.b - 0.25f);
-        else
+            yield return new WaitForSeconds(0.02f);
+        }
+
+        while (GetComponent<SpriteRenderer>().color.g != 1)
+        {
             GetComponent<SpriteRenderer>().color = new Color(1f, GetComponent<SpriteRenderer>().color.g + 0.25f, GetComponent<SpriteRenderer>().color.b + 0.25f);
-
-        if (GetComponent<SpriteRenderer>().color.g == 1f)
-            StopCoroutine(OnHit());
-
-        if (GetComponent<SpriteRenderer>().color.g <= 0)
-            isHit = false;
-        
-        yield return new WaitForSeconds(0.04f);
-        StartCoroutine(OnHit());
-       
+            yield return new WaitForSeconds(0.02f);
+        }
+        isHit = false;
     }
 }
