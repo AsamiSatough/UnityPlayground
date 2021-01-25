@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     public int curHp;
     public int maxHp = 3;
     bool isHit = false;
+    public main main;
 
     public void Start()
     {
@@ -80,9 +81,10 @@ public class Player : MonoBehaviour
             StartCoroutine(OnHit());
         }
 
-        if (curHp <= 0) 
+        if (curHp <= 0)
         {
             this.GetComponent<CapsuleCollider2D>().enabled = false;
+            Invoke("Lose", 2f);
         }
     }
 
@@ -100,5 +102,10 @@ public class Player : MonoBehaviour
             yield return new WaitForSeconds(0.02f);
         }
         isHit = false;
+    }
+
+    void Lose()
+    {
+        main.GetComponent<main>().Lose();
     }
 }

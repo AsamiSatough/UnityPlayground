@@ -15,21 +15,4 @@ public class Enemy : MonoBehaviour
 
         }
     }
-
-
-    //private void OnCollisionStay2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.tag == "Player")
-    //    {
-    //        print("Stay");
-    //    }
-    //}
-
-    //private void OnCollisionExit2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.tag == "Player")
-    //    {
-    //        print("Objects are separated");
-    //    }
-    //}
 }
