@@ -12,7 +12,6 @@ public class Player : MonoBehaviour
     Animator anim;
     public int curHp;
     public int maxHp = 3;
-    bool isHit = false;
     public main main;
 
     public void Start()
@@ -77,7 +76,6 @@ public class Player : MonoBehaviour
         if (deltaHp < 0)
         {
             StopCoroutine(OnHit());
-            isHit = true;
             StartCoroutine(OnHit());
         }
 
@@ -101,7 +99,6 @@ public class Player : MonoBehaviour
             GetComponent<SpriteRenderer>().color = new Color(1f, GetComponent<SpriteRenderer>().color.g + 0.25f, GetComponent<SpriteRenderer>().color.b + 0.25f);
             yield return new WaitForSeconds(0.02f);
         }
-        isHit = false;
     }
 
     void Lose()
