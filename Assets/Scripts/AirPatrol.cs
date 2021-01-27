@@ -9,6 +9,7 @@ public class AirPatrol : MonoBehaviour
     public float speed = 2.0f;
     public float waitTime = 3f;
     bool canGo = true;
+    float _rotation = 0;
 
     private void Start()
     {
@@ -35,7 +36,10 @@ public class AirPatrol : MonoBehaviour
 
     IEnumerator Waiting()
     {
+        _rotation += 180;
+
         yield return new WaitForSeconds(waitTime);
+        transform.eulerAngles = new Vector3(0, _rotation, 0);
         canGo = true;
     }
 }
