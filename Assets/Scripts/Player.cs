@@ -14,6 +14,8 @@ public class Player : MonoBehaviour
     public int maxHp = 3;
     public main main;
 
+    public bool key = false;
+
     public void Start()
     {
         curHp = maxHp;
@@ -75,8 +77,7 @@ public class Player : MonoBehaviour
         curHp += deltaHp;
         if (deltaHp < 0)
         {
-            StopCoroutine(OnHit());
-            StartCoroutine(OnHit());
+            StartCoroutine(OnHitRed());
         }
 
         if (curHp <= 0)
@@ -86,23 +87,51 @@ public class Player : MonoBehaviour
         }
     }
 
-    IEnumerator OnHit()
-    {        
-        while (GetComponent<SpriteRenderer>().color.g != 0)
-        {
+    IEnumerator OnHitRed()
+    {
+        int counter = 0;
+        while (counter != 4)
+        {   //become red
             GetComponent<SpriteRenderer>().color = new Color(1f, GetComponent<SpriteRenderer>().color.g - 0.25f, GetComponent<SpriteRenderer>().color.b - 0.25f);
             yield return new WaitForSeconds(0.02f);
+            counter++;
         }
-
-        while (GetComponent<SpriteRenderer>().color.g != 1)
-        {
-            GetComponent<SpriteRenderer>().color = new Color(1f, GetComponent<SpriteRenderer>().color.g + 0.25f, GetComponent<SpriteRenderer>().color.b + 0.25f);
-            yield return new WaitForSeconds(0.02f);
-        }
+        if (GetComponent<SpriteRenderer>().color.g == 0)
+            while (GetComponent<SpriteRenderer>().color.g != 1)
+            {   //become normal
+                GetComponent<SpriteRenderer>().color = new Color(1f, GetComponent<SpriteRenderer>().color.g + 0.25f, GetComponent<SpriteRenderer>().color.b + 0.25f);
+                yield return new WaitForSeconds(0.02f);
+            }
+        StopCoroutine(OnHitRed());
     }
 
     void Lose()
     {
         main.GetComponent<main>().Lose();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Key")
+        {
+            Destroy(collision.gameObject);
+            key = true;
+
+           
+          
+        }
+        if (collision.gameObject.tag == "Door")
+        {
+            if (collision.gameObject.GetComponent<Door>().isOpen)
+                collision.gameObject.GetComponent<Door>().Teleport(gameObject);
+
+            else if (key)
+            {
+                collision.gameObject.GetComponent<Door>().Unlock();
+                key = false;
+            }
+
+        }
+
     }
 }
